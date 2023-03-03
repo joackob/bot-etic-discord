@@ -29,9 +29,10 @@ Por último, instalar o actualizar `pipenv` como gestor de dependencias para est
 
 ## Variables de entorno
 
-- 🔐TOKEN: token de seguridad provisto por el [portal de desarrolladores](https://discord.com/developers/applications) de discord para cada bot. Adjunto a este proyecto existe un archivo `.env.example` que puede usar para colocar su propio token.
+- 🔐TOKEN_BOT_DISCORD: token de seguridad provisto por el [portal de desarrolladores](https://discord.com/developers/applications) de discord para cada bot. Adjunto a este proyecto existe un archivo `.env.example` que puede usar para colocar su propio token.
+- 🔐TOKEN_GPT_SESSION: token de seguridad para cada sesión de chat con `gpt` mediante `openia`. Dejo un [video](https://youtu.be/TdNSj_qgdFk?t=179) que explica como obtener dicho token.
 
 ## Instalación y ejecución
 
 - 🛠Para instalar las dependencias ejecutar el siguiente comando `pipenv install` (o `pip install -r requirements.txt`)
-- ⚒Para ejecutar el modo playground o repl, ejecutar el siguiente comando `pipenv run start` (o `python ./src/main.py`)
+- ⚒Para ejecutar el modo playground o repl, ejecutar el siguiente comando `pipenv run dev` (o `python ./src/main.py`)
